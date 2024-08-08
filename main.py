@@ -190,7 +190,7 @@ if __name__ == "__main__":
     parser.add_argument("--machine_name", type=str, required=True)
     parser.add_argument(
         "--people",
-        default="doruk ozer,alperen inci,utku mert topcuoglu,baran cengiz,burak mandira,cagri eser,mehmet onurcan kaya,sezai artun ozyegin",
+        default="name1 surname1,name2 surname2,name3 surname3,john doe,mehmet kaya,name4 surname4",
         help="comma separated list of people",
     )
     args = parser.parse_args()
